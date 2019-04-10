@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card{
+    border: 1px solid #ffff;
+    height: 30rem;
+    width: 20rem;
+    position: relative;
+}
+.card-footer{
+position: absolute;
+text-align: center;
+background: #ffff;
+padding: 9px;
+bottom: 0;
+    left: 0;
+    right: 0;
+}
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+progress{
+    width: 100%;
+    
+}
